@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    margin-top: 2vh;
+    text-decoration: underline;
+    color: #4c9f59;
+}
+
+.form-label{
+    display: block;
+    text-align: center;
+}
+
+.btn{
+    display: block;
+    margin: auto;
+}
