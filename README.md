@@ -1,4 +1,4 @@
 # calculateurImcJs
 
-A simple Javascript BMI
+**A simple Javascript BMI
 Just to train in Javascript 
