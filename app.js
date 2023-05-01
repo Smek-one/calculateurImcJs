@@ -34,4 +34,7 @@ btn.addEventListener('click', (e) => {
         hint.innerHTML = obeseSevere;
     }
     e.preventDefault(hint);
+
+    document.form.reset();
+    
 });
