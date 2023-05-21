@@ -64,6 +64,7 @@ btn.addEventListener('click', (e) => {
         let img1 = document.createElement("img");
         img1.src = "images/extreme_obese.png";
         img.appendChild(img1);
+        e.preventDefault(img1);
     }
     e.preventDefault(hint);
     
