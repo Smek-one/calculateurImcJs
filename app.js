@@ -41,7 +41,7 @@ btn.addEventListener('click', (e) => {
         let img1 = document.createElement("img");
         img1.src = "images/underweight.png";
         img.appendChild(img1);
-    }else if (resultat > 18.5 && resultat <25) {
+    }else if (resultat > 18.5 && resultat <=25) {
         hint.innerHTML = normal;
         conseil.innerHTML = "Votre poids n'augmente pas les risques pour votre santé.";
         let img1 = document.createElement("img");

@@ -16,7 +16,7 @@
   <div class="container-fluid m-0">
     <h1>Calcul de votre IMC</h1>
 
-    <div class="col col-md-12 text-center mx-auto my-5">
+    <div class="col col-md-12 text-center mx-auto my-3 py-2">
     <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
         <label class="form-check-label" for="inlineRadio1">Fille (-18ans)</label>
@@ -35,23 +35,24 @@
       </div>
     </div>
 
-    <div class="mb-3 col-md-4 mx-auto">
+    <div class=" col-md-4 mx-auto">
         <form action="" id="form" name="form">
-            <label for="poids" class="form-label fs-5 my-3" required>Votre poids en kg</label>
+            <label for="poids" class="form-label fs-4 my-2" required>Votre poids en kg</label>
             <input type="number" data-bs-toggle="tooltip" data-bs-placement="right" title="Veuillez remplir ce champ" id="poids" name="poids" min="10" max="120" class="poids form-control bg-success-subtle" required/>
             
 
-            <label for="taille" class="form-label fs-5 my-3" required>Votre taille en cm</label>    
+            <label for="taille" class="form-label fs-4 my-2" required>Votre taille en cm</label>    
             <input type="number" data-bs-toggle="tooltip" data-bs-placement="right" title="Veuillez remplir ce champ" id="taille" name="taille" min="100" max="230"class="taille form-control bg-success-subtle" required>
 
-            <button type="submit" class="btn btn-success mt-5">Calculer mon IMC</button>
+            <button type="submit" class="btn btn-success mt-4">Calculer mon IMC</button>
         </form>
     </div>
-
-    <h4 class="result"></h4>
-    <h3 class="hint"></h3>
+<div>
+    <h5 class="result"></h5>
+    <h6 class="hint"></h6>
     <p class="conseil"></p>
-    <p class="img img-fluid"></p>
+    <p class="img img-fluid mb-4"></p>
+  </div>
   </div>
 
     <!--MINE JS-->
